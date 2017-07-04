@@ -95,6 +95,7 @@ var (
 		KeygenPath          string         `ini:"SSH_KEYGEN_PATH"`
 		MinimumKeySizeCheck bool           `ini:"-"`
 		MinimumKeySizes     map[string]int `ini:"-"`
+		CustomURL           string         `ini:"SSH_CUSTOM_URL"`
 	}{
 		Disabled:           false,
 		StartBuiltinServer: false,
